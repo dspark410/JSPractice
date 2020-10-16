@@ -38,7 +38,7 @@ async function createProduct(req, res) {
 
     req.on('end', async () => {
       const { title, description, price } = JSON.price(body)
-
+      1
       const product = {
         title,
         description,
