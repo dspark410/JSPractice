@@ -100,6 +100,7 @@ addWordToDOM()
 //Event listeners
 
 //Typing
+
 text.addEventListener('input', (e) => {
   const insertedText = e.target.value
 
